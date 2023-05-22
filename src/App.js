@@ -56,8 +56,7 @@ function App() {
       <h1>Transfer Data:</h1>
       <ul>
         {data.map((item, index) => (
-          <li key={index}>
-            {item.Amount} {item.Currency.Symbol}
+          <li key={index}> Amount transferred: {item.Amount} {item.Currency.Symbol}
           </li>
         ))}
       </ul>
